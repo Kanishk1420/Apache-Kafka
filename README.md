@@ -18,6 +18,8 @@ The diagram below illustrates the fundamental architecture of a Kafka cluster, w
 
 ![Kafka Architecture](https://media.geeksforgeeks.org/wp-content/uploads/20240604175624/Kafka-Architecture-01-01.webp)
 
+*Image credit: [GeeksforGeeks - Kafka Architecture](https://www.geeksforgeeks.org/kafka-architecture/)*
+
 * **Producers** (like our `producer.js`) send records to **Brokers** in the Kafka Cluster.
 * The messages are stored in **Topics** (e.g., `Rider-updates`), which are split into **Partitions**.
 * **Consumers** (like our `consumer.js`) read records from the brokers. They are organized into **Consumer Groups** to process messages in parallel.
