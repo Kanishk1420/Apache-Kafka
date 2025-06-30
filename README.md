@@ -16,7 +16,7 @@ This project is a hands-on implementation of Apache Kafka concepts, inspired by 
 
 The diagram below illustrates the fundamental architecture of a Kafka cluster, which is what you are running via Docker.
 
-![Kafka Architecture](https://miro.medium.com/v2/resize:fit:1400/1*1q-4-L2sUnY9_t1C-xN_gQ.png)
+![Kafka Architecture](https://media.geeksforgeeks.org/wp-content/uploads/20240604175624/Kafka-Architecture-01-01.webp)
 
 * **Producers** (like our `producer.js`) send records to **Brokers** in the Kafka Cluster.
 * The messages are stored in **Topics** (e.g., `Rider-updates`), which are split into **Partitions**.
